@@ -1,0 +1,13 @@
+// current dogs age
+var dogAge = 4
+
+// he first two years of a dog’s life count as 21 human years
+var earlyYears = 21
+
+// each following year counts as 4 human years
+var laterYears = (dogAge - 2) * 4
+
+// equation of the vars
+var humanYears = earlyYears + laterYears
+
+print("My name is Midnight and I am \(humanYears) years old in human years")
